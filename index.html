@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/LogoDefinitivoblanco.png" type="image/x-icon">
+    <title>Turismo NOA</title>
+</head>
+<body>
+    <header class="sticky-top top-0">
+            <nav class="navbar px-4 navbar-dark navbar-expand-sm">
+                <a class="navbar-brand" href="#">
+                    <img class="tamaño-mobile" src="./img/LogoDefinitivoblanco.png" alt="logo NOA turismo" width="280">
+                </a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse justify-content-end navbar-collapse" id="navbarTogglerDemo01">
+                    <div class="navbar-nav text-t">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link" href="#provincias">Provincias</a>
+                        <a class="nav-link" href="nosotros.html" target="blank">Nosotros</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </div>
+                </div>       
+            </nav>
+    </header>
+    <main>
+        <section class="hero" id="inicio">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/principal/humahuaca.jpg" class="carousel-img d-block w-100" alt="cerro de los siete colores">
+                        <div class="carousel-caption">
+                            <h5 class="carousel-text">CONOCE LUGARES MAGICOS</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/principal/carnaval.jpg" class="carousel-img d-block w-100" alt="carnaval tilcara">
+                        <div class="carousel-caption">
+                            <h5 class="carousel-text">VIVI MOMENTOS INOLVIDABLES</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/principal/humita.jpg" class="carousel-img d-block w-100" alt="comida regional humita">
+                        <div class="carousel-caption">
+                            <h5 class="carousel-text">DESCUBRI SABORES UNICOS</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="py-3 textPrincipal" id="NOA">
+            <div class="container">
+                <div class=" row nortArg">
+                    <div class="textNort col-12 col-sm-12 col-xl-6">
+                        <h2 class="titleNort mt-4 px-4">Bienvenidos al Noroeste Argentino</h2>
+                        <p class="textP">Esta región atesora las huellas más antiguas de la herencia española en
+                            Argentina; el Noroeste es una región que ofrece de todo y para todos.
+                            Esta increíble - y a veces olvidada - región cubre el 10% del territorio argentino y
+                            comprende casi la mitad de la historia de nuestro país. Dese los Incas y otras culturas
+                            ancestrales que se destacaron por su excelente adaptación a las tierras altas, el dominio
+                            español y los días de la Independencia; todos han dejado una profunda huella en la vida de
+                            sus habitantes.
+                            En esta región encontramos hacia el Oeste la Puna; hacia el Norte los caminos llevan a la
+                            yunga o selva tropical, hábitat del yaguareté y viajando hacia el centro y sur se descubren
+                            prósperos valles que atesoran sitios pre hispánicos.</p>
+                    </div>
+                    <div class="videoNorte col-12 col-sm-12 col-xl-6 p-3">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/VXtzwzdUVno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"        allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="parallax d-flex justify-content-center align-items-center text-center">
+            <h3 class="parallax-texto fw-bolder">VENÍ A CONOCER <br> EL NOROESTE <br> ARGENTINO</h3>
+        </section>
+        <section class="cards-provincias" id="provincias">
+            <div class="container">
+                <div class="row">
+                    <h2 class="titulo-card d-flex justify-content-center py-3 fw-bolder mb-0">PROVINCIAS DEL NOA</h2>
+                    <div class="col-lg-4 col-md-6 col-sm-12 p-1">
+                        <div class="card  pt-3">
+                            <img src="https://th.bing.com/th/id/R.1107605516d995107f8744c801a6df3a?rik=eMZDVcQM5SUb8g&pid=ImgRaw&r=0" class="card-img-top" alt="tucuman" />
+                            <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                                <h5 class="card-title ">Tucuman</h5>
+                                <p class="card-text ">El jardin de la republica.</p>
+                                <a href="./tucuman.html" class="btn btn-primary"target="_blank">Ver mas...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 p-1">
+                        <div class="card  pt-3">
+                            <img src="https://th.bing.com/th/id/R.4c4ce2c6439ee6508753a04ea056a5e3?rik=d1VtQ4CX78fzmw&riu=http%3a%2f%2fwww.noticiasdelestero.com%2fnoticias%2fwp-content%2fuploads%2f2016%2f01%2fSantiagoAereoCostaneraCircunvalacionPuente.jpg&ehk=EXJH0pc4Miy1u9AJPMPFZWo4ukr9v9cA1zvN%2bQt%2fE4Q%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="Santiago del Estero" />
+                            <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                                <h5 class="card-title ">Santiago del Estero</h5>
+                                <p class="card-text ">Madre de ciudades.</p>
+                                <a href="./404.html" class="btn btn-primary"target="_blank">Ver mas...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 p-1">
+                        <div class="card pt-3">
+                            <img src="https://cdn.christravelblog.com/wp-content/uploads/2020/02/trenes-argentinos-9726-tren-a-las-nubes-train-to-the-clouds-day-trip-from-salta-IMG_9011-1024x683.jpg" class="card-img-top" alt="Salta" />
+                            <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                                <h5 class="card-title ">Salta</h5>
+                                <p class="card-text ">La linda.</p>
+                                <a href="./404.html" class="btn btn-primary"target="_blank">Ver mas...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 p-1">
+                        <div class="card  pt-3">
+                            <img src="https://th.bing.com/th/id/R.4a01eb620654ce5cfdc961ae029c7ad9?rik=pwrZpsE3KVKoiA&riu=http%3a%2f%2f2.bp.blogspot.com%2f-l6CDPGy-rpY%2fUvpmGdjVRgI%2fAAAAAAAAIcg%2frCx3ztypc68%2fs1600%2fincahuasi__mountain__andes__argentina_chile.jpg&ehk=D4ejSH3zMKTwbp7GiVsVdemUAbJ2UVZ4ey74uRmD32E%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="Catamarca" />
+                            <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                                <h5 class="card-title  ">Catamarca</h5>
+                                <p class="card-text ">El castillo en la falda.</p>
+                                <a href="./404.html" class="btn btn-primary"target="_blank">Ver mas...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 p-1">
+                        <div class="card  pt-3">
+                            <img src="https://th.bing.com/th/id/OIP.6adN1mgRxPJsMaW6AyQP_wHaE8?pid=ImgDet&rs=1" class="card-img-top" alt="La Rioja"/>
+                            <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                                <h5 class="card-title">La Rioja</h5>
+                                <p class="card-text ">Reina del carnaval.</p>
+                                <a href="./404.html" class="btn btn-primary"target="_blank">Ver mas...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 p-1">
+                        <div class="card  pt-3">
+                            <img src="https://1.bp.blogspot.com/-j03XKXlujC8/Xb16MV5wZ6I/AAAAAAAAJn4/YNLM__ep_DIvwkrDMpxao2cCDu-VpPrkwCLcBGAsYHQ/s1600/14074819238_6c00f7f002_o.jpg" class="card-img-top" alt="Jujuy">
+                            <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                                <h5 class="card-title ">Jujuy</h5>
+                                <p class="card-text ">De los 7 colores.</p>
+                                <a href="./404.html" class="btn btn-primary"target="_blank">Ver mas...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class=" iconPrincipal mb-3" id="viaja-seguro">
+            <div class="row">
+                <div class="icon col-12 col-sm-4 col-xl-4">
+                    <img src="https://img.icons8.com/cotton/64/000000/protection-mask--v12.png" />
+                    <h2>Mascarilla Obligatoria</h2>
+                </div>
+
+                <div class="icon col-12 col-sm-4 col-xl-4">
+                    <img src="https://img.icons8.com/cotton/48/000000/passport-and-tickets--v2.png" />
+                    <h2>Pasaporte de Vacunación Obligatorio</h2>
+                </div>
+
+                <div class="icon col-12 col-sm-4 col-xl-4">
+                    <img src="https://img.icons8.com/color/48/000000/pcr-test--v1.png" />
+                    <h2>Test PCR Negativo</h2>
+                </div>
+            </div>
+        </section>
+        <div class=" container borderStyle"></div>
+        <section>
+            <div class="d-none d-md-inline">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-flex justify-content-center">
+                                <div class="row justify-content-between w-75">
+                                    <div class="d-flex justify-content-center col-6">
+                                        <div class="d-flex">
+                                            <img class="img-coment rounded-circle mt-3" alt="foto de perfil" src="./img/principal/luismiguel.jpg"/>
+                                            <div class="p-3">
+                                                <h2>Luis Rodriguez</h2>
+                                                <p>Hermoso viaje! Me encantaria repetirlo!!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center col-6">
+                                        <div class="d-flex">
+                                            <img class="img-coment rounded-circle mt-3" alt="foto de perfil" src="./img/principal/2-3.jpg"/>
+                                            <div class="p-3 pe-0">
+                                                <h2>Alberto Costa</h2>
+                                                <p>Espectacular el noroeste argentino. Gracias.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex justify-content-center">
+                                <div class="row justify-content-between w-75">
+                                    <div class="d-flex justify-content-center col-6">
+                                        <div class="d-flex">
+                                            <img class="img-coment rounded-circle mt-3" alt="foto de perfil" src="./img/principal/donald.jpg"/>
+                                            <div class="p-3">
+                                                <h2>Donald Trump</h2>
+                                                <p>The NOA the most beautiful of Argentina</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center col-6">
+                                        <div class="d-flex">
+                                            <img class="img-coment rounded-circle mt-3" alt="foto de perfil" src="./img/principal/lady.jpg"/>
+                                            <div class="p-3 pe-0">
+                                                <h2>Diana Spencer</h2>
+                                                <p>Big company. Recommended</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex justify-content-center">
+                                <div class="row justify-content-between w-75">
+                                    <div class="d-flex justify-content-center col-6">
+                                        <div class="d-flex">
+                                            <img class="img-coment rounded-circle mt-3" alt="foto de perfil" src="./img/principal/kuni.jpg"/>
+                                            <div class="p-3">
+                                                <h2>Sergio Agüero</h2>
+                                                <p>Hermoso viaje! Me encantaria repetirlo!!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center col-6">
+                                        <div class="d-flex">
+                                            <img class="img-coment rounded-circle mt-3" alt="foto de perfil" src="./img/principal/lionel.jpg"/>
+                                            <div class="p-3 pe-0">
+                                                <h2>Lionel Messi</h2>
+                                                <p>Espectacular el noroeste argentino. Gracias.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="container shadow-box" id="contacto">
+            <div><h2 class="d-flex justify-content-center py-3 fw-bolder">CONTÁCTANOS</h2></div>
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                    <label for="validationCustom01" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Pepito">
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustom02" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Alonso">
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustomUsername" class="form-label">E-mail</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control" id="validationCustomUsername"
+                            aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                            Porfavor escribe un E-mail verdadero.
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="celular">Celular</label>
+                    <input required type="number" name="celular" class="form-control" id="celular"
+                        placeholder="Escriba su celular">
+                    <div class="invalid-feedback">
+                        Este campo no puede estar vacio.
+                    </div>
+                    <div id="emailHelp" class="form-text">Codigo de area + Número</div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom04" class="state form-label">Provincia</label>
+                    <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">Elige tu Provincia...</option>
+                        <option>Buenos Aires</option>
+                        <option>Capital Federal</option>
+                        <option>Catamarca</option>
+                        <option>Chaco</option>
+                        <option>Chubut</option>
+                        <option>Cordoba</option>
+                        <option>Corrientes</option>
+                        <option>Entre Ríos</option>
+                        <option>Formosa</option>
+                        <option>Jujuy</option>
+                        <option>La Pampa</option>
+                        <option>La Rioja</option>
+                        <option>Mendoza</option>
+                        <option>Misiones</option>
+                        <option>Neuquén</option>
+                        <option>Río Negro</option>
+                        <option>Salta</option>
+                        <option>San Juan</option>
+                        <option>San Luis</option>
+                        <option>Santa Cruz</option>
+                        <option>Santa Fé</option>
+                        <option>Santiago del Estero</option>
+                        <option>Tierra del Fuego</option>
+                        <option>Tucumán</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Por favor selecciona una provincia.
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="validationCustom03" required
+                        placeholder="Escribe la Ciudad donde Vives">
+                    <div class="invalid-feedback">
+                        Por favor escriba una ciudad válida.
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputZip" class="form-label">Código Postal</label>
+                    <input type="text" class="form-control" id="inputZip" placeholder="Escriba el Código Postal">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Escribe Aquí</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="d-flex justify-content-center col-12 pb-3">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+        <div class=" container borderStyle"></div>
+        <section class="wtsp-button">
+            <a href="https://wa.me/+543816325524" target="_blank">
+                <img class="wtsp-logo" src="/img/principal/WhatsApp.png" alt="Whatsapp logo">
+            </a>
+        </section>
+    </main>
+    <footer class="pie">
+        <section class="row gx-0 justify-content-around">
+            <article class="col-sm-12 col-md-5 col-xl-5">
+                <div class="d-flex flex-column d-flex justify-content-start m-5 ps-5">
+                    <a href="./index.html" class="link-light">Inicio</a>
+                    <a href="#provincias" class="link-light">Provincias del NOA</a>
+                    <a href="#NOA" class="link-light">El noroeste argentino</a>
+                    <a href="#viaja-seguro" class="link-light">Viaja seguro</a>
+                    <a href="#contacto" class="link-light">Formulario de contacto</a>
+                </div>
+                <div class="d-flex flex-column m-5 ps-5">
+                    <div class="d-flex mt-5">
+                        <a href="https://www.instagram.com"><img class="tamano-icon-footer" src="./icon/instagram.svg"
+                            alt="logo instagram"></a>
+                            <a href="https://www.twitter.com"><img class="tamano-icon-footer" src="./icon/twitter.svg"
+                                alt="logo twitter"></a>
+                                <a href="https://www.facebook.com"><img class="tamano-icon-footer" src="./icon/facebook.svg"
+                                    alt="logo facebook"></a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="d-none d-md-inline col-sm-12 col-md-5 col-xl-5">
+                            <iframe class="iframe-footer mt-5 mb-5"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1022202999156!2d-65.20939048495666!3d-26.83670088316041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses-419!2sar!4v1640306257422!5m2!1ses-419!2sar"
+                            width="100%" height="300"  allowfullscreen="" loading="lazy"></iframe>
+            </article>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+</html>
